@@ -1,8 +1,11 @@
 [package]
 name = "passable"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+license = "MIT OR Apache-2.0"
+description = "Pass a pointer around."
+homepage = "https://github.com/amjoshuamichael/passable"
+repository = "https://github.com/amjoshuamichael/passable"
+readme = "README.md"
+categories = ["memory-management"]
+include = ["/src/**/*", "/Cargo.toml", "/README.md", "LICENSE*"]
